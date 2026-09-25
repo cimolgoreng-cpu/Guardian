@@ -10,15 +10,17 @@ This repository contains the security assessment documentation, methodology, and
 
 ---
 
-## 👨‍💻 Project Team & Contribution
+## 👥 Project Team & Contributors
 
-This security assessment was conducted as a collaborative team effort.
+This security assessment was conducted as a collaborative team effort by:
 
-| Contributor | Focus / Area of Responsibility |
-| :--- | :--- |
-| **Jason Darrell Sebastian** ([@jason-darrell](https://github.com/jason-darrell)) | **Network Reconnaissance, Traffic Inspection (Wireshark), Web Security Assessment & CVSS Risk Scoring** |
-| **Team Member 2** ([@username](#)) | Web Application Exploitation & Report Drafting |
-| **Team Member 3** ([@username](#)) | Target Subnet Enumeration & Service Mapping |
+| Student Name | Student ID (NIM) | Focus / Area of Responsibility |
+| :--- | :---: | :--- |
+| **Qurotullail Nadzira** | **qurotullail.nadzira@binus.ac.id** | **Mobile & Network Penetration Testing, Traffic Analysis & Vulnerability Assessment** |
+| **Daniel Anugrah Atmadyma Nainggolan** | **daniel.nainggolan@binus.ac.id** | **Security Analyst & Documentation** |
+| **Fairuzsakha Muhammad Amandra** | **fairuzshaka.amandra@bins.ac.id** | **Network Reconnaissance & Enumeration** |
+| **Muhammad Irgi Diandra Putra** | **muhammad.putra102@binus.ac.id** | **Web Application Penetration Testing** |
+| **Rizky Darmawan** | **rizky.darmawan002@binus.ac.id** | **Threat Modeling & Remediation Planning** |
 
 ---
 
@@ -26,7 +28,7 @@ This security assessment was conducted as a collaborative team effort.
 
 * **Network Reconnaissance & Enumeration:** `Nmap`, `Netcat`
 * **Packet & Traffic Analysis:** `Wireshark`
-* **Web Application Testing:** `Burp Suite` (Community/Professional)
+* **Web Application Testing:** `Burp Suite`
 * **Exploitation & PoC:** `Metasploit Framework`, Custom `Python` Scripts
 * **Vulnerability Assessment & Scoring:** `CVSS v3.1 Calculator`
 
@@ -45,7 +47,7 @@ This security assessment was conducted as a collaborative team effort.
 ### 3. Web Application Security Testing
 * Evaluated web application endpoints focusing on:
   * **Authentication & Session Management:** Testing for weak session identifiers and credential brute-force resilience.
-  * **Input Validation & Access Control:** Assessing endpoints for potential injection flaws and Broken Object Level Authorization (BOLA).
+  * **Input Validation & Access Control:** Assessing endpoints for potential injection flaws and access control configurations.
 
 ### 4. Vulnerability Scoring & Remediation Planning
 * Calculated standardized **CVSS v3.1** base scores for each identified issue to establish clear threat prioritization.
